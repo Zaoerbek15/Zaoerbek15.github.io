@@ -1,0 +1,9 @@
+.checklist {
+    list-style-image: url(".././Images/img_1.png");
+    list-style-position: inside;
+}
+
+.checked {
+    list-style-image: url(".././images/img.png");
+    list-style-position: inside;
+}
