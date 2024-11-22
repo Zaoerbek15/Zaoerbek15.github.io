@@ -1,0 +1,58 @@
+/* Algemene instellingen voor de kalender */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table.calendar {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Maand hoofding */
+thead th {
+    background-color: rgb(170, 170, 200);
+    color: #fff;
+}
+
+/* Dag hoofding */
+th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+
+
+.prev-month {
+    background-color: #f0f0f0;
+}
+
+
+td:nth-child(7),
+td:nth-child(1) {
+    background-color: rgb(255, 220, 220);
+}
+
+/* Vrije dag (16) */
+.free-day {
+    background-color: rgb(250, 120, 120);
+}
+
+
+tr:first-child td:first-child, tr:last-child td:last-child {
+    background-color: #e0e0e0;
+}
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(170, 170, 200);
+    padding: 10px;
+}
